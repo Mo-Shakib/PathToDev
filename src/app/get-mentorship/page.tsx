@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 
 export default function Mentorship() {
   const [subject, setSubject] = useState('');
@@ -20,7 +19,7 @@ export default function Mentorship() {
           Book a 1:1 Mentorship Session
         </h1>
         <p className="text-base md:text-lg text-blue-700 dark:text-blue-200 mb-6 md:mb-8 max-w-2xl mx-auto">
-          Get personalized guidance from experienced developers who've been in your shoes.
+          Get personalized guidance from experienced developers who&apos;ve been in your shoes.
         </p>
       </section>
       
@@ -52,7 +51,7 @@ export default function Mentorship() {
               required
               rows={6}
               className="w-full px-4 py-3 border border-blue-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-              placeholder="Describe what you'd like to discuss in the session..."
+              placeholder="Describe what you&apos;d like to discuss in the session..."
             />
           </div>
 

@@ -27,7 +27,7 @@ export default function Home() {
           Why Choose PathToDev?
         </h2>
         <p className="text-base md:text-lg text-blue-700 dark:text-blue-200 mb-6 md:mb-8 italic">
-        “Becoming a software developer isn’t just about writing code—it’s about solving real problems, building projects, and breaking free from the endless loop of tutorials. I was stuck there too—watching countless YouTube videos, jumping between courses, unsure of what to do next or how to reach my goal. I wasn’t lacking effort; I was lacking guidance. Once I found the right path, everything changed. Now, I share my journey—the mistakes, the breakthroughs, and the lessons—to help you escape the cycle, stay focused, and build a real career in tech.”
+        "Becoming a software developer isn&apos;t just about writing code—it&apos;s about solving real problems, building projects, and breaking free from the endless loop of tutorials. I was stuck there too—watching countless YouTube videos, jumping between courses, unsure of what to do next or how to reach my goal. I wasn&apos;t lacking effort; I was lacking guidance. Once I found the right path, everything changed. Now, I share my journey—the mistakes, the breakthroughs, and the lessons—to help you escape the cycle, stay focused, and build a real career in tech."
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-[10px] shadow-md">
@@ -66,7 +66,7 @@ export default function Home() {
 
       <section className="bg-blue-50 dark:bg-gray-800 p-4 sm:p-6 md:p-8 rounded-[10px] mb-8 sm:mb-10 md:mb-12">
         <h2 className="text-2xl font-bold mb-4 text-center text-gray-900 dark:text-white">Mentorship Program</h2>
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-6">Get personalized guidance from experienced developers who've been in your shoes.</p>
+        <p className="text-center text-gray-600 dark:text-gray-300 mb-6">Get personalized guidance from experienced developers who&apos;ve been in your shoes.</p>
         <div className="text-center">
           <Link href="/get-mentorship/" className="bg-blue-600 text-white px-8 py-3 rounded-[20px] hover:bg-blue-700 transition-colors inline-block">
             Schedule a Session
@@ -78,13 +78,13 @@ export default function Home() {
         <div className="p-4 bg-white dark:bg-gray-800 rounded-[20px] shadow-md">
           <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Video Tutorials</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-3">Step-by-step video guides covering essential development topics and best practices.</p>
-          <a href="/tutorials/" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Watch Now →</a>
+          <Link href="/tutorials/" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Watch Now →</Link>
         </div>
 
         <div className="p-4 bg-white dark:bg-gray-800 rounded-[20px] shadow-md">
           <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Learning Roadmaps</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-3">Structured learning paths and comprehensive guides to master software development.</p>
-          <a href="/roadmaps/" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">View Roadmaps →</a>
+          <Link href="/roadmaps/" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">View Roadmaps →</Link>
         </div>
       </section>
     </div>
