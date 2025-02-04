@@ -27,7 +27,7 @@ export default function Home() {
           Why Choose PathToDev?
         </h2>
         <p className="text-base md:text-lg text-blue-700 dark:text-blue-200 mb-6 md:mb-8 italic">
-        "Becoming a software developer isn&apos;t just about writing code—it&apos;s about solving real problems, building projects, and breaking free from the endless loop of tutorials. I was stuck there too—watching countless YouTube videos, jumping between courses, unsure of what to do next or how to reach my goal. I wasn&apos;t lacking effort; I was lacking guidance. Once I found the right path, everything changed. Now, I share my journey—the mistakes, the breakthroughs, and the lessons—to help you escape the cycle, stay focused, and build a real career in tech."
+        &quot;Becoming a software developer isn&apos;t just about writing code—it&apos;s about solving real problems, building projects, and breaking free from the endless loop of tutorials. I was stuck there too—watching countless YouTube videos, jumping between courses, unsure of what to do next or how to reach my goal. I wasn&apos;t lacking effort; I was lacking guidance. Once I found the right path, everything changed. Now, I share my journey—the mistakes, the breakthroughs, and the lessons—to help you escape the cycle, stay focused, and build a real career in tech.&quot;
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-[10px] shadow-md">
