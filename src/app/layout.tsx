@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
             <Link href="/" className="flex items-center space-x-3">
               <Image 
-                src="/dev.svg"
+                src="./dev.svg"
                 alt="PathToDev Logo"
                 width={40}
                 height={40}
