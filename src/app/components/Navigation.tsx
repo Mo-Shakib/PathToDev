@@ -22,7 +22,6 @@ export default function Navigation() {
               alt="PathToDev Logo"
               width={32}
               height={32}
-              priority
               className="w-8 h-8"
             />
             <span className="text-xl font-bold text-gray-900">PathToDev</span>
