@@ -5,18 +5,18 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
-      <section className="text-center py-6 sm:py-8 md:py-12 bg-gradient-to-b from-blue-50 to-white dark:from-gray-800 dark:to-gray-900 rounded-[10px]">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-blue-900 dark:text-blue-100">
+      <section className="text-center py-12 sm:py-16 md:py-24 bg-white dark:bg-gray-900 rounded-[10px]">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-8 text-gray-800 dark:text-gray-100">
           From Zero to Expert in Software Development
         </h1>
-        <p className="text-base md:text-lg text-blue-700 dark:text-blue-200 mb-6 md:mb-8 max-w-2xl mx-auto px-4">
+        <p className="text-base md:text-lg text-gray-700 dark:text-gray-200 mb-8 md:mb-10 max-w-2xl mx-auto px-4">
         Your Journey to Software Engineering Excellence Starts Here. Master Data Structures, Algorithms, Development, and Launch Your Tech Career
         </p>
-        <div className="flex flex-col md:flex-row justify-center gap-4 px-4">
-          <Link href="/dsa-to-development/" className="bg-blue-500 text-white px-6 md:px-8 py-3 rounded-[20px] hover:bg-blue-600 transition-colors shadow-lg w-full md:w-auto text-center">
+        <div className="flex flex-col md:flex-row justify-center gap-6 px-4">
+          <Link href="/dsa-to-development/" className="bg-blue-500 text-white px-8 md:px-10 py-4 rounded-[20px] hover:bg-blue-600 transition-colors shadow-lg w-full md:w-auto text-center text-lg">
             Start Learning
           </Link>
-          <Link href="/get-mentorship/" className="border-2 border-blue-500 text-blue-500 px-6 md:px-8 py-3 rounded-[20px] hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors w-full md:w-auto text-center">
+          <Link href="/get-mentorship/" className="border-2 border-blue-500 text-blue-500 px-8 md:px-10 py-4 rounded-[20px] hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors w-full md:w-auto text-center text-lg">
             Get 1:1 Mentorship
           </Link>
         </div>
