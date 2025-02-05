@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import MobileNav from './components/MobileNav';
 import './globals.css';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,7 +23,13 @@ export default function RootLayout({
         <nav className="bg-blue-50 shadow-sm fixed w-full z-20 top-0 start-0">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
             <Link href="/" className="flex items-center space-x-3">
-              <img src="/dev.svg" alt="PathToDev Logo" className="h-10 w-10 font-bold bg-white p-1 rounded-lg" />
+              <Image 
+                src="/dev.svg"
+                alt="PathToDev Logo"
+                width={40}
+                height={40}
+                priority
+              />
               <span className="text-lg font-bold text-blue-600">Path to Dev</span>
             </Link>
             <MobileNav />

@@ -16,7 +16,14 @@ export default function Navigation() {
     ${isActive(path) ? 'font-bold' : ''}
   `;
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+  const styles = {
+    // ... other styles ...
+  };
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <nav className="bg-white shadow-md">
