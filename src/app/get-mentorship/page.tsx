@@ -16,7 +16,7 @@ export default function Mentorship() {
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-6 sm:py-8 md:py-12">
       <section className="text-center mb-8 md:mb-12">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-blue-900 dark:text-blue-100">
-          Book a 1:1 Mentorship Session
+          Book a Mentorship Session
         </h1>
         <p className="text-base md:text-lg text-blue-700 dark:text-blue-200 mb-6 md:mb-8 max-w-2xl mx-auto">
           Get personalized guidance from experienced developers who&apos;ve been in your shoes.
