@@ -18,11 +18,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="../dev.svg"
+              src="/dev.svg"
               alt="PathToDev Logo"
               width={32}
               height={32}
-              className="w-8 h-8"
+              priority
             />
             <span className="text-xl font-bold text-gray-900">PathToDev</span>
           </Link>
