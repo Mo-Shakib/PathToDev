@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PathToDev
 
-## Getting Started
+A comprehensive platform designed to guide aspiring developers from zero to professional software engineers. PathToDev provides structured learning paths, mentorship, and career guidance to help you break into tech and grow your career.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🎯 Learning Paths
+- **DSA to Development**: Structured path from data structures to practical development
+- **Frontend Development**: Comprehensive guides on HTML, CSS, JavaScript, React, and Next.js
+- **Backend Development**: Node.js, Express, databases, and API development
+- **Full Stack Development**: MERN stack and modern web development practices
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👨‍🏫 Mentorship Program
+- One-on-one guidance from experienced developers
+- Personalized learning plans
+- Career advice and direction
+- Direct email communication system
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📚 Educational Resources
+- **Video Tutorials**: Step-by-step guides on development topics
+- **Career Tips**: Industry insights and professional growth strategies
+- **Job Search Guide**: Resume building, interview preparation, and job hunting strategies
+- **Learning Roadmaps**: Structured paths for different specializations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 💼 Career Support
+- Resume building guidance
+- Technical interview preparation
+- Portfolio development tips
+- Job search strategies
+- Industry networking advice
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Frontend
+- Next.js 14 (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Next.js Image Optimization
