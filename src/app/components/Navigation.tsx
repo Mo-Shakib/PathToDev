@@ -2,23 +2,10 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 export default function Navigation() {
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
-
-  const isActive = (path: string) => pathname === path;
-
-  const linkStyle = (path: string) => `
-    text-blue-600 hover:text-blue-800 font-semibold
-    ${isActive(path) ? 'font-bold' : ''}
-  `;
-
-  const styles = {
-    // ... other styles ...
-  };
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const toggleMenu = () => {
