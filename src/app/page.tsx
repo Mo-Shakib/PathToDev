@@ -9,7 +9,7 @@ export default function Home() {
       <section className="text-center py-16 sm:py-20 md:py-28 bg-white dark:bg-gray-900 rounded-[10px]">
         <div className="mb-8 md:mb-10 flex justify-center">
           <Image
-            src="/development.svg"
+            src="./development.svg"
             alt="Software Development Illustration"
             width={400}
             height={300}
