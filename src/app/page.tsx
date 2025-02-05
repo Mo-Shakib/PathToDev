@@ -11,11 +11,10 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
           <div className="mb-6 md:mb-8 flex justify-center">
             <Image
-              src="/dev.svg"
+              src="./dev.svg"
               alt="Software Development Illustration"
               width={400}
               height={300}
-              priority
               className="w-full max-w-[240px] h-auto"
             />
           </div>
