@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
+import MobileNav from './components/MobileNav';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -23,16 +24,7 @@ export default function RootLayout({
             <Link href="/" className="flex items-center space-x-3">
               <span className="self-center text-xl font-semibold text-blue-600">PathToDev</span>
             </Link>
-            <div className="flex items-center space-x-6">
-              <div className="hidden md:flex space-x-6">
-                <Link href="/dsa-to-development" className="text-sm text-blue-900 dark:text-blue-100 hover:text-blue-600">DSA to Development</Link>
-                <Link href="/career-tips" className="text-sm text-blue-900 dark:text-blue-100 hover:text-blue-600">Career Tips</Link>
-                <Link href="/job-search" className="text-sm text-blue-900 dark:text-blue-100 hover:text-blue-600">Job Search</Link>
-                <Link href="/tutorials" className="text-sm text-blue-900 dark:text-blue-100 hover:text-blue-600">Tutorials</Link>
-                <Link href="/roadmaps" className="text-sm text-blue-900 dark:text-blue-100 hover:text-blue-600">Roadmaps</Link>
-              </div>
-              <Link href="/get-mentorship" className="text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg">Get Mentorship</Link>
-            </div>
+            <MobileNav />
           </div>
         </nav>
         <main className="mt-16">{children}</main>
@@ -56,6 +48,7 @@ export default function RootLayout({
               <div>
                 <h2 className="text-xl font-semibold mb-4">Contact</h2>
                 <Link href="/get-mentorship" className="text-gray-300 hover:text-white">Get Mentorship</Link>
+                
               </div>
             </div>
           </div>
