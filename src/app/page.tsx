@@ -1,11 +1,22 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
       <section className="text-center py-16 sm:py-20 md:py-28 bg-white dark:bg-gray-900 rounded-[10px]">
+        <div className="mb-8 md:mb-10 flex justify-center">
+          <Image
+            src="/development.svg"
+            alt="Software Development Illustration"
+            width={400}
+            height={300}
+            priority
+            className="w-full max-w-[300px] h-auto"
+          />
+        </div>
         <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-8 text-gray-800 dark:text-gray-100">
           From Zero to Expert in Software Development
         </h1>
@@ -33,7 +44,7 @@ export default function Home() {
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-[10px] shadow-md">
             <div className="inline-block p-3 bg-blue-100 rounded-[10px] mb-4">
               <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4" />
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Structured Learning Path</h3>
