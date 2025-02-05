@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
-      <section className="text-center py-12 sm:py-16 md:py-24 bg-white dark:bg-gray-900 rounded-[10px]">
+      <section className="text-center py-16 sm:py-20 md:py-28 bg-white dark:bg-gray-900 rounded-[10px]">
         <h1 className="text-3xl md:text-5xl font-bold mb-6 md:mb-8 text-gray-800 dark:text-gray-100">
           From Zero to Expert in Software Development
         </h1>
@@ -17,7 +17,7 @@ export default function Home() {
             Start Learning
           </Link>
           <Link href="/get-mentorship/" className="border-2 border-blue-500 text-blue-500 px-8 md:px-10 py-4 rounded-[20px] hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors w-full md:w-auto text-center text-lg">
-            Get 1:1 Mentorship
+            Get Mentorship
           </Link>
         </div>
       </section>
